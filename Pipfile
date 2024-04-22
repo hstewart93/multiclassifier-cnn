@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+ipdb = "==0.13.2"
+
+[packages]
+numpy = "==1.18.5"
+tensorflow = "==2.2.0"
+matplotlib = "==3.2.1"
+pandas = "==1.0.5"
+sklearn = "==0.0"
+keras = "==2.4.0"
+pillow = "*"
+
+[requires]
+python_version = "3.7"
